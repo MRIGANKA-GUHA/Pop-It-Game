@@ -1,12 +1,12 @@
-A Pop It Game built with HTML, CSS, and JavaScript consists of multiple buttons that the user can "pop" by clicking. When clicked, the button changes color or disappears. The game includes a Reset button that restores all buttons to their original state.
+# React + Vite
 
-Key Features:
-HTML: Creates buttons inside a container.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-CSS: Styles the buttons to look like a Pop It toy.
+Currently, two official plugins are available:
 
-JavaScript:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Adds event listeners to change the button's appearance when clicked.
+## Expanding the ESLint configuration
 
-Implements a Reset button that restores all buttons to their initial state.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
